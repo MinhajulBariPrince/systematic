@@ -16,6 +16,7 @@ body {
   background: #ba2e1f;
   padding: 20px;
   flex-wrap: wrap;
+  width: 100%;
 }
 .header-items ul {
   display: flex;
@@ -23,6 +24,7 @@ body {
 }
 .header-items ul li {
   border-right: 1px solid #ffffff;
+  flex: 1 0 auto;
 }
 .header-items ul li:last-child {
   border-right: none;
